@@ -1,0 +1,16 @@
+@tailwind base;
+
+/* selection text color */
+
+::selection {
+  color: rgb(33, 33, 33);
+  background: rgb(255, 215, 94);
+}
+
+ion-icon {
+  --ionicon-stroke-width: 36px;
+  pointer-events: none;
+}
+
+@tailwind components;
+@tailwind utilities;

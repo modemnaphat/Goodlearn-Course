@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../dist/output.css" />
+
+    <!-- tab icon -->
+    <link rel="shortcut icon" href="favicon.svg" type="image/x-icon" />
+
+    <!-- font -->
+    <!-- google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sarabun:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- ionicons -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body>
+    <!-- new -->
+    <div id="quiz_main_contianer" class="w-full mt-9"></div>
+
+    <div id="btncontainer" class="justify-end flex px-10">
+      <button href="">
+        <div
+          onclick="displayRadioValue()"
+          id="submit"
+          class="flex py-1 px-3 border-2 border-whisper-900 rounded-full items-center space-x-4 pl-8 pr-6"
+        >
+          <div class="text-base text-whisper-900 font-semibold pb-1.5">
+            submit
+          </div>
+          <ion-icon
+            name="checkmark"
+            class="h-8 w-8 text-whisper-900"
+          ></ion-icon>
+        </div>
+      </button>
+    </div>
+
+    <div id="displayscore"></div>
+    <div id="result" class></div>
+    <!-- script -->
+    <script src="../src/quiz.js"></script>
+  </body>
+</html>

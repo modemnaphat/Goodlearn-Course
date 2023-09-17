@@ -1,0 +1,157 @@
+/* import */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* universal */
+*{
+    box-sizing: border-box;
+}
+
+:root {
+
+    /* color */
+    --yellow: #ffe283;
+    --lightning_Yellow : #fac338;
+
+    /* font family */
+
+
+    /* font style */
+}
+
+::-webkit-selection {
+    background: var(--yellow);
+}
+
+::selection  {
+    background: var(--yellow);
+}
+
+
+/* element class */
+
+/* shadow */
+.shadow {
+    box-shadow: 0px 4px 4px rgba(44, 44, 44, 0.2);
+}
+
+
+/* -----font class----- */
+
+/* font family */
+
+.fontTester {
+    font-family: 'Noto Sans Thai', sans-serif;
+}
+
+/* font weight */
+
+.font-weight-100 {
+    font-weight: 100;
+}
+
+.font-weight-200 {
+    font-weight: 200;
+}
+
+.font-weight-300 {
+    font-weight: 300;
+}
+
+.font-weight-400 {
+    font-weight: 400;
+}
+
+.font-weight-500 {
+    font-weight: 500;
+}
+
+.font-weight-600 {
+    font-weight: 700;
+}
+
+.font-weight-800 {
+    font-weight: 800;
+}
+
+.font-weight-900 {
+    font-weight: 900;
+}
+
+/* text size */
+
+.text-caption {
+    font-size: 13px;
+}
+
+.text-normal {
+    font-size: 16px;
+}
+
+.text-title3 {
+    font-size: 20px;
+}
+
+.text-title2 {
+    font-size: 22px;
+}
+
+.text-title1 {
+    font-size: 28px;
+}
+
+.text-header {
+    font-size: 36px;
+}
+
+.text-display {
+    font-size: 42px;
+}
+
+/* text alignment */
+
+.text-center {
+    text-align: center;
+}
+
+.text-start {
+    text-align: start;
+}
+
+.text-end {
+    text-align: end;
+}
+
+.text-L {
+    text-align: left ;
+}
+
+.text-R {
+    text-align: right ;
+}
+
+.text-R {
+    text-align: inherit ;
+}
+
+
+/* -----div element----- */
+
+/* navbar */
+
+.nav {
+    width: 100vw;
+}
+
+.nav p {
+    text-decoration: none;
+}
+
+/* logos & icons */
+
+.logo-lg {
+    height: 48px;
+}
+
+.logo-md {
+    height: 36px;
+}
